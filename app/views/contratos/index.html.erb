@@ -1,0 +1,26 @@
+<h1>contratos#index</h1>
+
+<table>
+  <tr>
+    <th>Contrato</th>
+    <th>Montos</th>
+    <th>Fecha</th>
+    <th>Cliente</th>
+  </tr>
+  <% @contratos.each do |contrato| %>
+    <tr>
+      <td>
+        <%= contrato.nombre %>
+      </td>
+      <td>
+        <%= contrato.monto %>
+      </td>
+      <td>
+        <%= contrato.fecha %>
+      </td>
+      <td>
+        <%= contrato.cliente.nombre %>
+      </td>
+    </tr>
+  <% end %>
+</table>
