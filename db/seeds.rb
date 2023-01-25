@@ -34,7 +34,7 @@ Contrato.create([
     cliente_id: 2
   },
   {
-    nombre: "SEO Website",
+    nombre: "Facturacion electronica",
     monto: 2500,
     fecha: Date.new(2023, 4, 1),
     cliente_id: 3
