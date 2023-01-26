@@ -12,6 +12,8 @@ Cliente.create([
   {nombre: "Udla"},
   {nombre: "Supermaxi"},
   {nombre: "Cigarra"},
+  {nombre: "Los Bandidos del Páramo"},
+  {nombre: "Cervecería nacional"},
 ])
 
 Contrato.create([
@@ -38,5 +40,23 @@ Contrato.create([
     monto: 2500,
     fecha: Date.new(2023, 4, 1),
     cliente_id: 3
-  }
+  },
+  {
+    nombre: "Wordpress site",
+    monto: 2500,
+    fecha: Date.new(2023, 4, 1),
+    cliente_id: 4
+  },
+  {
+    nombre: "App web",
+    monto: 7000,
+    fecha: Date.new(2023, 4, 1),
+    cliente_id: 4
+  },
+  {
+    nombre: "App movil",
+    monto: 8000,
+    fecha: Date.new(2023, 4, 1),
+    cliente_id: 5
+  },
 ])
