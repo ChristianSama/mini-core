@@ -7,8 +7,8 @@ class ContratosController < ApplicationController
 
     @totales = Contrato
       .joins(:cliente)
-      .select('contratos.id, sum(contratos.monto) as monto, clientes.nombre as cliente_nombre')
-      .group(:cliente_id)
+      .group('clientes.nombre')
+      .select('sum(contratos.monto) as monto, clientes.nombre as cliente_nombre')
       .where("fecha between (?) and (?)", fecha_inicio, fecha_fin)
   end
 end
