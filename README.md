@@ -1,24 +1,15 @@
-# README
+# Mini core
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Proyecto desarrollado para la materia de Ingeniería web de la Universidad de las Américas.
 
-Things you may want to cover:
+Autor: Christian Samaniego
 
-* Ruby version
+## Descripción
+El proyecto consiste en resolver un problema simple utilizando un framework MVC. En este caso en particular, el objetivo es realizar un filtrado de información entre dos fechas.
 
-* System dependencies
+## Stack
+- Ruby on Rails
+- Postgres
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Deployment
+Deployado en [Render](https://mini-core-1l1h.onrender.com/contratos)
